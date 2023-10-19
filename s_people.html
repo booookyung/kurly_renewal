@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kurly 채용</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/s_people.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <i class="fa fa-map-marker-alt" style='color: rgb(62, 5, 62)' ></i>
+                    <small>&nbsp;서울특별시 강남구 테헤란로 133, 18층(역삼동)</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <i class="far fa-clock" style='color: rgb(62, 5, 62)'></i>
+                    <small>&nbsp;Mon - Sun : 07AM - 07PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <i class="fa fa-phone-alt" style='color: rgb(62, 5, 62)'></i>
+                    <small>&nbsp;<strong>고객 행복센터</strong> 1644-1107</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/"><i class="fab fa-facebook-f" style='color: rgb(62, 5, 62)'></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/"><i class="fab fa-twitter" style='color: rgb(62, 5, 62)'></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.youtube.com/"><i class="fab fa-youtube" style='color: rgb(62, 5, 62)'></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.instagram.com/"><i class="fab fa-instagram" style='color: rgb(62, 5, 62)'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5"></a>
+        </div>
+        <!-- <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">Kurly</h2> -->
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Market</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="#" class="dropdown-item">전체 상품</a>
+                        <a href="#" class="dropdown-item">베스트</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Beauty</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="#" class="dropdown-item">전체 상품</a>
+                        <a href="#" class="dropdown-item">신상품</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Center</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <!-- <a href="feature.html" class="dropdown-item">FAQ</a -->
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                        <li><a class="dropdown-item" href="s_people.html">인재채용</a></li>
+                    </div>
+                </div>
+                <a href=""#" class="nav-item nav-link">Event</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Kurly Story<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- 현재 위치 -->
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+            <h1>인재채용</h1>
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item">Kurly Center</li>
+            <li class="breadcrumb-item active">인재채용</li>
+            </ol>
+        </div>
+        </div>
+    </div>
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa-solid fa-user-plus fa-2x" style='color: rgb(62, 5, 62)'></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">01</h1>
+                    </div>
+                    <h5>진정성 있는 도전</h5>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-cogs fa-2x" aria-hidden="true"  style='color: rgb(62, 5, 62)'></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">02</h1>
+                    </div>
+                    <h5>기술과 데이터</h5>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa fa-globe fa-2x" aria-hidden="true"  style='color: rgb(62, 5, 62)'></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">03</h1>
+                    </div>
+                    <h5>유통 혁신</h5>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <div class="d-flex align-items-center justify-content-center bg-light" style="width: 60px; height: 60px;">
+                            <i class="fa-solid fa-arrow-up-right-dots fa-2x" style='color: rgb(62, 5, 62)'></i>
+                        </div>
+                        <h1 class="display-1 text-light mb-0">04</h1>
+                    </div>
+                    <h5>더 나은 삶</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Start -->
+
+
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="image/p.JPG" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="section-title text-start">
+                            <h1 class="display-5 mb-4">Team Kurly</h1>
+                        </div>
+                        <p class="mb-4 pb-2"><h3>Career Excellence with Kurly</h3>컬리에서<strong>'진정성 있는 도전'을 함께 할 여러분을 기다립니다.<br>컬리는 기술과 데이터를 위해 유통을 혁신하며,<br>모두를 위해 더 나은 삶을 만들기 위해 존재해요.</strong></p>
+                        <div class="row g-4 mb-4 pb-2">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                        <i class="fa fa-building fa-2x" aria-hidden="true" style='color: rgb(62, 5, 62)' ></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h2 class="text-primary mb-1">2014년</h2>
+                                        <p class="fw-medium mb-0">설립</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                                        <i class="fa-regular fa-handshake fa-2x" aria-hidden="true" style='color: rgb(62, 5, 62)' ></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h2 class="text-primary mb-1">4,200억</h2>
+                                        <p class="fw-medium mb-0">2020 누적 투자금액</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="s_people.html" class="btn btn-primary py-3 px-5">채용 정보</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">컬리웨이(Kurly Way)</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <div class="image1"><img class="img-fluid" src="image/p1.JPG" alt=""></div>
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">1. 우리는 서로를 신뢰하는<br>원팀입니다.</h4>
+                            <p>우리는 서로의 다름은 존중하되, 모두가 고객과 파트너, 컬리의 성공이라는 공통의 목표를 가지고 있다는 것을 킫고, 하나의 팀으로 일합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="image/p2.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">2. 고객이 원하는 일 보다<br>고객에게 옳은 일을 합니다.</h4>
+                            <p>고객이 원하는 일 보다, 고객에게 옳은 일을 고객이 납득할 수 있는 방식으로 합니다.고객을 위해 옳은 일을 하는 것이 결과보다 중요합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="image/p3.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">3. 실행만이 성공을 만듭니다</h4>
+                            <p>99가지 안되는 이유보다, 1가지 되는 이유에 집중합니다. 빠르게 실행하고 그 결과를 통해 배우고 개선합니다. 이러한 매일의 실행, 회고, 개선이 모여 큰 혁신을 이루어 냅니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="image/p4.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">4. 투명하게 소통하고<br>함께 헌신합니다</h4>
+                            <p>우리는 자신의 의견을 투명하게 소통하며, 객관적 사실에 근거하여 치열하게 토론합니다. 다른 의견이 있을 때는 망설임 없이 제안하며, 결정 사항에 대해서는 모두가 헌신(Commit)합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="image/p5.JPG" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">5. 사실과 데이터를 기반으로<br>의사결정을 합니다</h4>
+                            <p>우리는 사실과 데이터를 기반으로 동료와 고객에게 설명할 수 있는 의사결정을 합니다. 느낌으로 하는 결정은 설사 결과가 좋더라도 설명과 반복이 불가능하기 때문에 지양하도록 합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>서울특별시 강남구 테헤란로 133, 18층(역삼동)</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>1644-1107</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>help@Kurly.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Menu</h4>
+                    <a class="btn btn-link" href="#">Market Kurly</a>
+                    <a class="btn btn-link" href="#">Beauty Kurly</a>
+                    <a class="btn btn-link" href="#">FAQ</a>
+                    <a class="btn btn-link" href="#">Event</a>
+                    <a class="btn btn-link" href="s_people.html">인재채용</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">컬리 센터</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="">개인정보처리방침</a>
+                    <a class="btn btn-link" href="">이용약관</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Kurly News</h4>
+                    <p>컬리의 새로운 소식과 혜택을 받아보세요.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="E-mail Adress">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <small>
+                            컬리에서 판매되는 상품 중에는 컬리에 입점한 개별 판매자가 판매하는<br>
+                            마켓플레이스(오픈마켓)상품이 포함되어 있습니다.<br>
+                            마켓플레이스 상품의 경우 컬리는 통신판매중개자로서 통신판매의 당사자가 아닙니다.<br>
+                            컬리는 해당 상품의 주문,품질,교환/환불 등 의무와 책임을 부담하지 않습니다.
+                        </small>
+                        <br><br>&copy;<strong> Kurly</strong> All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/sample.js"></script>
+</body>
+
+</html>

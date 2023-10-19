@@ -1,0 +1,71 @@
+@import url(common.css);
+@import url(header&footer.css);
+
+@font-face {
+  font-family: 'Cafe24ClassicType-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{text-align: center;}
+
+.box1 {margin-top: 100px;}
+.box1 ul {
+  display: flex;
+  justify-content: center;
+}
+.box1 ul li{
+  margin: 0 20px;
+  width: 300px;
+  height: 413px;
+  position: relative;
+  overflow: hidden;
+}
+
+.box2 {margin-top: 100px;}
+.box2 ul {
+  display: flex;
+  justify-content: center;
+}
+.box2 ul li{
+  margin: 0 20px;
+  width: 300px;
+  height: 413px;
+  position: relative;
+  overflow: hidden;
+}
+
+.text{
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+  width: inherit;
+  height: 120px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255,0.8);
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 35px;
+}
+.text h3{
+  color: #222;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.text p{
+  font-size: 15px;
+  color: #555;
+  font-weight: bold;
+}
+.text a{
+  color: purple;
+  font-size: 15px;
+  text-decoration: underline;
+}
